@@ -1,6 +1,20 @@
+import About from "./components/About";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Service from "./components/Service";
+import Tours from "./components/Tours";
+
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
-export default App
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Service />
+      <Tours />
+      <Footer />
+    </>
+  );
+};
+export default App;
